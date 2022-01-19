@@ -228,6 +228,30 @@ body {
 .button-styles:focus {
   background-color: #188ce8;
 }
+
+/* Backdrop */
+.backdrop {
+  position: fixed;
+  width: 1600px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 528px;
+  height: 581px;
+  background-color: var(--background-heder-);
+  transform: translate(-50%, -50%);
+}
+
 /* стилізвція майн */
 
 .section {
@@ -291,6 +315,37 @@ body {
 }
 .foto-work .item:not(:last-child) {
   margin-right: 30px;
+}
+/* .item {
+  position: relative;
+} */
+.product {
+  position: relative;
+  width: 370px;
+  height: 294px;
+}
+/* .p-thumb {
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  padding-top: 27px;
+} */
+
+.work-title {
+  position: absolute;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  color: var(--color-h1-);
+  padding-top: 27px;
+  bottom: 0;
 }
 
 /* стилізація команди */

@@ -61,9 +61,16 @@
     <section class="heroe">
       <h1 class="heroe-main">Ефективне рішення <br> для Вашого бізнесу</h1>
       <div class="button-hero">
-      <button type="button" class="button-styles">Замовити послугу</button>
+      <button data-modal-open type="button" class="button-styles">Замовити послугу</button>
       </div>
     </section>
+
+    <!-- БЕКДРОП -->
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button data-modal-close>Close</button>
+  </div>
+</div>
 
     <!-- Майн -->
     <main>
@@ -142,13 +149,22 @@
         <h2 class="our-work">Чим ми займаємось</h2>
         <ul class="foto-work list">
           <li class="item">
+            <div class="product">
             <img src="./images/box1.jpg" alt="Копютер" width="370" />
+              <p class="work-title">Десктопные приложения</p>
+            </div>
           </li>
           <li class="item">
+            <div class="product">
             <img src="./images/box2.jpg" alt="Ноутбук" width="370" />
+              <p class="work-title">Мобильные приложения</p>
+            </div>
           </li>
           <li class="item">
-            <img src="./images/box3.jpg" alt="Планшет" width="370" />
+            <div class="product">
+              <img src="./images/box3.jpg" alt="Планшет" width="370" />
+              <p class="work-title">Дизайнерские решения</p>
+            </div>
           </li>
         </ul>
         </div>
@@ -436,5 +452,6 @@
       </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
