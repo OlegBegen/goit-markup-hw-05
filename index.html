@@ -57,6 +57,7 @@
       </div>
       </section>
     </header>
+
     <!-- Герой -->
     <section class="heroe">
       <h1 class="heroe-main">Ефективне рішення <br> для Вашого бізнесу</h1>
@@ -65,12 +66,7 @@
       </div>
     </section>
 
-    <!-- БЕКДРОП -->
-<div class="backdrop is-hidden" data-modal>
-  <div class="modal">
-    <button data-modal-close>Close</button>
-  </div>
-</div>
+   
 
     <!-- Майн -->
     <main>
@@ -149,19 +145,19 @@
         <h2 class="our-work">Чим ми займаємось</h2>
         <ul class="foto-work list">
           <li class="item">
-            <div class="product">
+            <div class="product-our">
             <img src="./images/box1.jpg" alt="Копютер" width="370" />
               <p class="work-title">Десктопные приложения</p>
             </div>
           </li>
           <li class="item">
-            <div class="product">
+            <div class="product-our">
             <img src="./images/box2.jpg" alt="Ноутбук" width="370" />
               <p class="work-title">Мобильные приложения</p>
             </div>
           </li>
           <li class="item">
-            <div class="product">
+            <div class="product-our">
               <img src="./images/box3.jpg" alt="Планшет" width="370" />
               <p class="work-title">Дизайнерские решения</p>
             </div>
@@ -452,6 +448,24 @@
       </div>
       </div>
     </footer>
+    <!-- БЕКДРОП -->
+
+
+<!-- button close -->
+
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <div class="button-close">
+      <button class="button-item-main" data-modal-close>
+        <svg class="close-item">
+          <use href="./images/sprit1.svg#icon-close-1"></use>
+        </svg>
+    </div>
+  </div>
+  </button>
+</div>
+</div>
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
