@@ -6,6 +6,11 @@
 a {
   text-decoration: none;
 }
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 :root {
   --color-general-: #212121;
   --color-second-: #2196f3;
@@ -38,8 +43,9 @@ body {
 }
 
 .container {
-  margin-right: 200px;
-  margin-left: 200px;
+  /* margin-right: 200px;
+  margin-left: 200px; */
+  margin: 0 auto;
   padding-right: 15px;
   padding-left: 15px;
   width: 1200px;
@@ -49,10 +55,12 @@ body {
 
 .section {
   max-width: 1600px;
+  margin: 0 auto;
 }
 .header-style {
   background-color: var(--background-heder-);
-  max-width: 1600px;
+  /* max-width: 1600px; */
+  width: 100%;
 }
 .head {
   width: 1600 px;
@@ -203,6 +211,7 @@ body {
 /* стилізація героя */
 .heroe {
   padding: 200px 0;
+  margin: 0 auto;
   background-color: var(--background-scond);
   color: var(--color-h1-);
   max-width: 1600px;
@@ -219,8 +228,9 @@ body {
 .heroe {
   max-width: 1600px;
   height: 600px;
-  margin-right: 0;
-  margin-left: 0;
+  /* margin-right: 0;
+  margin-left: 0; */
+  margin: 0 auto;
 
   background-image: linear-gradient(
       to right,
@@ -319,6 +329,7 @@ body {
 
 .section-mod {
   padding-bottom: 0;
+  margin: 0 auto;
 }
 .site-we .we-title {
   color: var(--color-general-);
@@ -503,6 +514,7 @@ body {
 }
 .client {
   max-width: 1600px;
+  margin: 0 auto;
   padding-bottom: 94px;
 }
 .clients {
@@ -533,7 +545,8 @@ body {
 /* стилізація футера */
 
 .fotter-styles {
-  max-width: 1600px;
+  /* max-width: 1600px; */
+  width: 100%;
   background-color: var(--background-scond);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -720,6 +733,6 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(33, 150, 243, 0.9);
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
