@@ -269,7 +269,9 @@ body {
 /* Backdrop */
 .backdrop {
   position: fixed;
-  width: 1600px;
+  /* width: 1600px; */
+  width: 100%;
+  margin: 0 auto;
   height: 100%;
   left: 0px;
   top: 0px;
@@ -285,13 +287,15 @@ body {
   left: 50%;
   width: 528px;
   height: 581px;
+  margin: 0 auto;
   background-color: var(--background-heder-);
   transform: translate(-50%, -50%);
 }
 
-.modal {
+/* .modal {
+  margin: 0 auto;
   position: relative;
-}
+} */
 
 /* button close*/
 
